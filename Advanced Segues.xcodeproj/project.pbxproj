@@ -12,6 +12,7 @@
 		D8F190F91D14FB4800F034A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F190F71D14FB4800F034A9 /* Main.storyboard */; };
 		D8F190FB1D14FB4800F034A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F190FA1D14FB4800F034A9 /* Assets.xcassets */; };
 		D8F190FE1D14FB4800F034A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F190FC1D14FB4800F034A9 /* LaunchScreen.storyboard */; };
+		D8FD664C1D1DB28800F3B3EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD664B1D1DB28800F3B3EB /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D8F190FA1D14FB4800F034A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F190FD1D14FB4800F034A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F190FF1D14FB4800F034A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FD664B1D1DB28800F3B3EB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D8F190F31D14FB4800F034A9 /* AppDelegate.swift */,
 				D8F190F51D14FB4800F034A9 /* ViewController.swift */,
+				D8FD664B1D1DB28800F3B3EB /* TableViewController.swift */,
 				D8F190F71D14FB4800F034A9 /* Main.storyboard */,
 				D8F190FA1D14FB4800F034A9 /* Assets.xcassets */,
 				D8F190FC1D14FB4800F034A9 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F190F61D14FB4800F034A9 /* ViewController.swift in Sources */,
+				D8FD664C1D1DB28800F3B3EB /* TableViewController.swift in Sources */,
 				D8F190F41D14FB4800F034A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				D8F191041D14FB4800F034A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
